@@ -23,8 +23,8 @@ a {
     text-decoration: none
 }
 html, body {
-    background: #ffF;
-    height: 100%;     /*fooer栏高度比例 原始100% */
+    background: #fff;
+    height: 100%;
 
 }
 
@@ -42,14 +42,14 @@ textarea {
 
 
 .inner-center {
-    width: 800px;      /*搜索框宽度整体 */
+    width: 1000px;
     margin: 0 auto;
  
 }
 
 .main {
-    padding-top: 10%;     /*搜索框-logo高度比例 上下位置调节 */
-    min-height:100%;       /*fooer栏高度比例 原始100% */
+    padding-top: 5%;
+    min-height: 100%;
    
 }
 .content-inside{
@@ -67,7 +67,7 @@ textarea {
 .logo-box {
     display: flex;
     overflow: hidden;
-    margin-left: 250px;     /*google搜索大LOGO的左右位置   */
+    margin-left: 350px;
     align-items: center;
 }
 .logo-left {
@@ -87,7 +87,7 @@ textarea {
 
 /* 搜索框 start */
 .search-section {
-    margin-top: 14px;    /*google搜索&大LOGO间距位置   */
+    margin-top: 14px;
     margin-bottom: 40px;
 }
 .search-section {
@@ -102,7 +102,7 @@ textarea {
     border: 1px solid rgba(217, 217, 217, 0.96);
 }
 .search-logo {
-    width: 50px;
+    width: 40px;
     align-items: center;
     justify-content: center;
     background: url("./img/scgoogle.png") center center no-repeat;
@@ -243,8 +243,8 @@ textarea {
 }
 
 .search-submit {
-    width: 100px;      /*搜索框蓝色-宽度  */
-    height: 54px;      /*搜索框蓝色-高度  */
+    width: 123px;
+    height: 54px;
     line-height: 26px;
     /* background: url("./img/search.png") #1890ff 48px center no-repeat; */
     background-color: #ff0000;
