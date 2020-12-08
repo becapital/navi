@@ -16,11 +16,11 @@ $(function () {
   $searchLogo.addClass(initSearchType).data('type', initSearchType);
 
   var search_types = [
+    { url: 'https://www.google.com/search?q=', type: 'google' },
     { url: 'https://www.baidu.com/s?wd=', type: 'baidu' },
     { url: 'https://www.sogou.com/web?query=', type: 'sogou' },
     { url: 'https://cn.bing.com/search?q=', type: 'bing' },
     { url: 'https://www.youtube.com/results?search_query=', type: 'youtube' },
-    { url: 'https://www.google.com/search?q=', type: 'google' },
     { url: 'http://www.cilimao.cc/search?word=', type: 'cili' },
     { url: 'http://neets.cc/search?key=', type: 'yingyin' },
     { url: 'https://cn.panjiva.com/Manufacturers-Of/', type: 'panjivaseller' },
